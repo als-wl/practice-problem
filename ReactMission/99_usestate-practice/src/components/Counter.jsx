@@ -20,7 +20,7 @@ function Counter() {
       <button onClick={handleDecrease}>-1</button>
       <button onClick={handleFuncg}>초기화</button>
       <button onClick={handleIncrease}>+1</button>
-      <button></button>
+      <button>test</button>
     </>
   );
 }
