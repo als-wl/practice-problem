@@ -23,9 +23,8 @@ function ToggleSwitch() {
       />
       <label htmlFor="chk2">다크모드 {isChecked2 ? "🌙" : "🌕"}</label>
       <br />
-      <label htmlFor="chk1">
-        {isChecked1 ? "🎉 이 메시지는 조건부로 표시됩니다!" : ""}
-      </label>
+
+      {isChecked1 ? "🎉 이 메시지는 조건부로 표시됩니다!" : ""}
     </>
   );
 }

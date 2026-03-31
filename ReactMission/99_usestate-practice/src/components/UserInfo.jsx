@@ -25,11 +25,11 @@ function UserInfo() {
       </p>
       <p>
         나이:
-        <input type="text" value={message2} onChange={handleUserChange2} />
+        <input type="number" value={message2} onChange={handleUserChange2} />
       </p>
       <p>
         이메일:
-        <input type="text" value={message3} onChange={handleUserChange3} />
+        <input type="email" value={message3} onChange={handleUserChange3} />
       </p>
       <h3>프로필</h3>
       {message1}({message2})
